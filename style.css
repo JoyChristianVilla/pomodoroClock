@@ -1,0 +1,29 @@
+h1 {
+  padding-top: 50px;
+  padding-bottom: 75px;
+  font-size: 35px;
+}
+h2 {
+  font-size: 30px;
+  padding: 30px;
+}
+table tr td {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 30px 30px 30px;
+}
+
+i {
+  color: red;
+  font-size: 20px;
+  margin: 10px;
+}
+#start-pause {
+  font-size: 30px;
+  padding: 15px;
+  height: 150px;
+  width: 150px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}

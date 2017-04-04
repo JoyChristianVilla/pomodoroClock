@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
+    <script src="https://use.fontawesome.com/74ed6023db.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 align="center">Pomodoro Clock</h1>
+    <table align="center">
+      <tr>
+        <td align="center">Session length</td>
+        <td align="center">Break length</td>
+      </tr>
+      <tr>
+        <td align="center"><a class="space" id="shorter-session"><i class="fa fa-minus-circle" aria-hidden="true"></i></a><span id="session-time">25</span><a class="space" id="longer-session"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></td>
+        <td align="center"><a class="space" id="shorter-break"><i class="fa fa-minus-circle" aria-hidden="true"></i></a><span id="break-time">5</span><a class="space" id="longer-break"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></td>
+      </tr>
+    </table>
+    <p align="center"><a id="start-pause">Start</a></p>
+    <div class="well" id="timer">
+      <h2 align="center"><span id="minutes">25</span>:<span id="seconds">00</span></h2>
+    </div>
+    <h2 align="center" id="work-break"></h2>
+    <audio id="alarm">
+      <source src="foghorn-daniel_simon.mp3" type="audio/mpeg">
+    </audio>
+    <script src="app.js"></script>
+  </body>
+</html>
